@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,900&display=swap" rel="stylesheet">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        
+        <div class="input-wrapper">
+            <div>
+                <p class="input-heading">Date</p>
+                <input type="text" id="date-input" class="input-el" name="date" placeholder="dd" required="required" minlength="1" maxlength="2">
+            </div>
+            
+            <div>
+                <p class="input-heading">Month</p>
+                <input type="text" id="month-input" class="input-el" name="month" placeholder="mm" required="required" minlength="1" maxlength="2">
+            </div>
+        
+            <div>
+                <p class="input-heading">Year</p>
+                <input type="text" id="year-input" class="input-el" name="year" placeholder="yyyy" required="required" minlength="4" maxlength="4">
+            </div>
+        </div>
+
+        <button id="submit-btn">Submit</button>
+
+        <p class="age-text" id="age"></p>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

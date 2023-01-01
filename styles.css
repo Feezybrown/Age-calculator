@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #2f3e46;
+    padding: 40px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    width: 450px;
+    min-height: 50vh;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0;
+}
+
+
+input {
+    margin: 10px 10px 10px 0;
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+#submit-btn {
+    padding: 7px 30px;
+    border-radius: 6px;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    background-image: linear-gradient(to left, #52796f 0%, #84a98c 51%);
+    color: white;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+
+.input-el {
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #84a98c;
+    text-align: center;
+    outline: none;
+    background-color: white;
+    font-size: 14px;
+}
+
+
+.age-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.input-heading {
+    text-align: center;
+    font-size: 14px;
+}
